@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Fri Oct 30 17:22:48 2020
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
+Revision Name : centro_recebimento_graos
+Top-level Entity Name : centro_recebimento_graos
+Family : Cyclone II
+Total logic elements : 296
+    Total combinational functions : 295
+    Dedicated logic registers : 17
+Total registers : 17
+Total pins : 138
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

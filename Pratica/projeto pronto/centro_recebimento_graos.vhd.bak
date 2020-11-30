@@ -1,0 +1,63 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity pseudo_mux is
+    port (
+        RESET   : in    std_logic; -- reset input
+        CLOCK   : in    std_logic; -- clock input
+        S       : in    std_logic; -- control input
+        A,B,C,D : in    std_logic; -- data inputs
+        Q       : out   std_logic  -- data output
+    );
+end pseudo_mux;
+
+architecture arch of pseudo_mux is
+	type State_type is (ST0, ST1, ST2, ST3);
+	signal estado_atual, estado_proximo : State_type:=ST0;
+	signal aux_S : std_logic := '0';
+begin
+	
+	CI_SEQ: process (CLOCK, RESET)
+		begin 
+			if RESET = '1' then
+				estado_atual <= ST0;
+			elsif (rising_edge(CLOCK)) then
+				estado_atual <= estado_proximo;
+				aux_S <= S;
+			end if;
+	end process CI_SEQ;
+		
+	CI_COMB: process (estado_atual, S, aux_S)
+		begin
+			case estado_atual is
+				when ST0 =>
+					if (S = '1' and aux_S = '0') then
+						estado_proximo <= ST1;
+					else
+						estado_proximo <= ST0;
+					end if;
+				when ST1 =>
+					if (S = '1' and aux_S = '0') then
+						estado_proximo <= ST2;
+					else
+						estado_proximo <= ST1;
+					end if;
+				when ST2 =>
+					if (S = '1' and aux_S = '0') then
+						estado_proximo <= ST3;
+					else
+						estado_proximo <= ST2;
+					end if;
+				when others =>
+					estado_proximo <= ST0;
+			end case;
+	end process CI_COMB;
+	
+	with estado_atual select
+	Q <= A when ST0,
+		  B when ST1,
+		  C when ST2,
+		  D when ST3,
+		  A when others;
+    
+end arch;

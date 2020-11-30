@@ -1,0 +1,26 @@
+|pseudo_mux
+RESET => state_final.ALOAD
+RESET => State~7.DATAIN
+CLOCK => state_final.CLK
+CLOCK => State~5.DATAIN
+S => State.OUTPUTSELECT
+S => state_final.OUTPUTSELECT
+S => State.OUTPUTSELECT
+S => state_final.OUTPUTSELECT
+S => State.OUTPUTSELECT
+S => State.OUTPUTSELECT
+S => state_final.OUTPUTSELECT
+S => State.OUTPUTSELECT
+S => State.OUTPUTSELECT
+S => State.OUTPUTSELECT
+S => State.OUTPUTSELECT
+S => state_final.OUTPUTSELECT
+A => state_final.DATAB
+A => state_final.DATAA
+A => state_final.ADATA
+B => state_final.DATAB
+C => state_final.DATAB
+D => state_final.DATAB
+Q <= state_final.DB_MAX_OUTPUT_PORT_TYPE
+
+

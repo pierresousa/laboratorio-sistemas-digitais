@@ -1,0 +1,75 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1\lsd8\flipflopD\simulation\modelsim
+Eflipflopd
+Z1 w1600802706
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\altera\13.0sp1\lsd8\flipflopD\simulation\modelsim
+Z5 8C:/altera/13.0sp1/lsd8/flipflopD/FlipFlopD.vhd
+Z6 FC:/altera/13.0sp1/lsd8/flipflopD/FlipFlopD.vhd
+l0
+L4
+V90Hz47P1EQa4zBIVPJC4f0
+Z7 OV;C;10.1d;51
+31
+Z8 !s108 1601672338.556000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/altera/13.0sp1/lsd8/flipflopD/FlipFlopD.vhd|
+Z10 !s107 C:/altera/13.0sp1/lsd8/flipflopD/FlipFlopD.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+!s100 LQk_YK6TXUdMGFGZ[9IT>3
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 9 flipflopd 0 22 90Hz47P1EQa4zBIVPJC4f0
+l16
+L11
+VE<I94b1BknXmeUYMM^cGE1
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 zL]VIcclR1F]QW8Kk`MF_0
+!i10b 1
+Etb_flipflopd
+Z13 w1600795819
+R2
+R3
+R4
+Z14 8C:/altera/13.0sp1/lsd8/flipflopD/tb_FlipFlopD.vhd
+Z15 FC:/altera/13.0sp1/lsd8/flipflopD/tb_FlipFlopD.vhd
+l0
+L4
+VKn3>HOoo`feULL<7;d>Ld3
+!s100 Hco9RgoeC^h7QZ7^Td=m[0
+R7
+31
+!i10b 1
+Z16 !s108 1601672338.752000
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/altera/13.0sp1/lsd8/flipflopD/tb_FlipFlopD.vhd|
+Z18 !s107 C:/altera/13.0sp1/lsd8/flipflopD/tb_FlipFlopD.vhd|
+R11
+R12
+Ateste
+R2
+R3
+DEx4 work 12 tb_flipflopd 0 22 Kn3>HOoo`feULL<7;d>Ld3
+l17
+L7
+V6nE@5`D>N`HcOS8h0:;d>0
+!s100 6c7If08nVM[U]N:S]aVWO2
+R7
+31
+!i10b 1
+R16
+R17
+R18
+R11
+R12

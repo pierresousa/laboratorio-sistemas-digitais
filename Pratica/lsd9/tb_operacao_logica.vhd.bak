@@ -1,0 +1,29 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity tb_operacao_logica is
+
+end tb_operacao_logica;
+
+
+architecture teste of tb_operacao_logica is
+
+component operacao_logica is 
+port (
+        X : in    std_logic_vector(3 downto 0); -- data input
+        OUTPUT       : out   std_logic_vector(3 downto 0)  -- data output
+);
+end component;
+
+signal X, OUTPUT: std_logic_vector(3 downto 0);
+begin
+instancia_operacao_logica: operacao_logica port map (X=>X, OUTPUT=>OUTPUT);
+X <=  std_logic_vector(to_unsigned(5,W)),
+		std_logic_vector(to_unsigned(10,W)) after 10 ns, 
+		std_logic_vector(to_unsigned(0,W)) after 20 ns, 
+		std_logic_vector(to_unsigned(25,W)) after 30 ns, 
+		std_logic_vector(to_unsigned(15,W))after 50 ns, 
+		std_logic_vector(to_unsigned(20,W)) after 60 ns, 
+		std_logic_vector(to_unsigned(5,W)) after 70 ns;
+end teste;

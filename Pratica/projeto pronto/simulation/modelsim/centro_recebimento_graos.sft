@@ -1,0 +1,5 @@
+set tool_name "ModelSim-Altera (VHDL)"
+set corner_file_list {
+	{{"Slow Model"} {centro_recebimento_graos.vho centro_recebimento_graos_vhd.sdo}}
+	{{"Fast Model"} {centro_recebimento_graos_fast.vho centro_recebimento_graos_vhd_fast.sdo}}
+}

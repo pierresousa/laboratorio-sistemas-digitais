@@ -1,0 +1,19 @@
+
+State Machine - |centro_recebimento_graos|estado_atual
+Name estado_atual.PESAGEM_FINAL estado_atual.ESPERA_PESAGEM_FINAL estado_atual.SAI_SILO_FEIJAO estado_atual.DESCARREGA_FEIJAO estado_atual.ENTRA_SILO_FEIJAO estado_atual.ESPERA_VAGA_FEIJAO estado_atual.SAI_SILO_ARROZ estado_atual.DESCARREGA_ARROZ estado_atual.ENTRA_SILO_ARROZ estado_atual.ESPERA_VAGA_ARROZ estado_atual.SAI_SILO_SOJA estado_atual.DESCARREGA_SOJA estado_atual.ENTRA_SILO_SOJA estado_atual.ESPERA_VAGA_SOJA estado_atual.PESAGEM_INICIAL estado_atual.INICIO 
+estado_atual.INICIO 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+estado_atual.PESAGEM_INICIAL 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+estado_atual.ESPERA_VAGA_SOJA 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+estado_atual.ENTRA_SILO_SOJA 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+estado_atual.DESCARREGA_SOJA 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+estado_atual.SAI_SILO_SOJA 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+estado_atual.ESPERA_VAGA_ARROZ 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+estado_atual.ENTRA_SILO_ARROZ 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+estado_atual.DESCARREGA_ARROZ 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+estado_atual.SAI_SILO_ARROZ 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+estado_atual.ESPERA_VAGA_FEIJAO 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+estado_atual.ENTRA_SILO_FEIJAO 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+estado_atual.DESCARREGA_FEIJAO 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+estado_atual.SAI_SILO_FEIJAO 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+estado_atual.ESPERA_PESAGEM_FINAL 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+estado_atual.PESAGEM_FINAL 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 

@@ -1,0 +1,4 @@
+o signal esta comportando igual um latch
+https://www.intel.com/content/www/us/en/programmable/quartushelp/13.0/mergedProjects/msgs/msgs/wvrfx_l2_vhdl_id_in_comb_process_holds_value.htm
+é um aviso falso
+o latch ele guarda o sinal do estado anterior

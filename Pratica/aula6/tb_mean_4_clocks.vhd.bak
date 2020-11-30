@@ -1,0 +1,25 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity tb_mean_4_clocks is
+end tb_mean_4_clocks;
+
+architecture teste of tb_mean_4_clocks is
+
+component mean_4_clocks is 
+port (
+	generic (
+        W       :       integer := 32
+    );
+    port (
+        CLK     : in    std_logic;
+        RESET   : in    std_logic;
+        INPUT   : in    std_logic_vector(W - 1 downto 0);
+        OUTPUT  : out   std_logic_vector(W - 1 downto 0)
+    );
+	
+);
+end component;
+
+signal 

@@ -1,0 +1,79 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1\aula3\simulation\modelsim
+Eaula3
+Z1 w1597856615
+Z2 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dC:\altera\13.0sp1\aula3\simulation\modelsim
+Z6 8C:/altera/13.0sp1/aula3/aula3.vhd
+Z7 FC:/altera/13.0sp1/aula3/aula3.vhd
+l0
+L8
+VAAB_UMo[`h2Ubl6G1FX_:3
+Z8 OV;C;10.1d;51
+31
+Z9 !s108 1598058132.866000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/altera/13.0sp1/aula3/aula3.vhd|
+Z11 !s107 C:/altera/13.0sp1/aula3/aula3.vhd|
+Z12 o-93 -work work -O0
+Z13 tExplicit 1
+!s100 MHZe>VE80zAJT6`Un?FoB1
+!i10b 1
+Artl
+R2
+R3
+R4
+DEx4 work 5 aula3 0 22 AAB_UMo[`h2Ubl6G1FX_:3
+l25
+L24
+VNmR<iJT6j4jl5c6c;RhI?1
+R8
+31
+R9
+R10
+R11
+R12
+R13
+!s100 c5oP=;4OV:bKhe7lREU[k1
+!i10b 1
+Etb_somador
+Z14 w1597856592
+R2
+R3
+R4
+R5
+Z15 8C:/altera/13.0sp1/aula3/tb_somador.vhd
+Z16 FC:/altera/13.0sp1/aula3/tb_somador.vhd
+l0
+L5
+VIOjfd7``DE7TaaoAaXOm@3
+!s100 ]kcdDQfSEKC>l524GjmL[2
+R8
+31
+!i10b 1
+Z17 !s108 1598058133.163000
+Z18 !s90 -reportprogress|300|-93|-work|work|C:/altera/13.0sp1/aula3/tb_somador.vhd|
+Z19 !s107 C:/altera/13.0sp1/aula3/tb_somador.vhd|
+R12
+R13
+Ateste
+R2
+R3
+R4
+DEx4 work 10 tb_somador 0 22 IOjfd7``DE7TaaoAaXOm@3
+l16
+L8
+VkL?G1LRW;G`3`6hAEIDEj3
+!s100 @@jWIW[d5Mzi3c<C1mLn91
+R8
+31
+!i10b 1
+R17
+R18
+R19
+R12
+R13
